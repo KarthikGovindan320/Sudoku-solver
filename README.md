@@ -1,11 +1,10 @@
 # 🔢 Sudoku Solver
 
 A fast and efficient Python-based Sudoku solver that can crack any **valid** puzzle in **under half a second**.  
-Whether you're testing logic or automating your puzzles, this tool handles it all with speed and precision.
 
 ---
 
-## 💡 How It Works
+## 💡 How To Use
 
 Simply provide your Sudoku puzzle as a `9x9` grid, where:
 - Each row is a list of integers
@@ -31,13 +30,13 @@ Simply provide your Sudoku puzzle as a `9x9` grid, where:
 We're working on a mobile application that:
 
 - 📷 Scans **live camera footage** to detect Sudoku puzzles  
-- 🔢 Recognizes digits using **custom-trained computer vision models**  
+- 🔢 Recognizes digits using **custom-fine-tuned computer vision models**  
 - 🧩 **Overlays** the solution directly on the screen
 
 ### 🔧 Two Possible Approaches
 
 **1. On-Device Processing**  
-- Lightweight custom CV models optimized for mobile performance.
+- Lightweight custom CV models optimized for mobile performance. Bit difficult though, custom cv models
 
 **2. Server-Side Processing**  
 - Stream video to a server, process the puzzle, and return results — minimizing device load.
@@ -66,7 +65,3 @@ We’re open to:
 Feel free to reach out or open an issue!
 
 ---
-
-## 📄 License
-
-**MIT License** — feel free to use and adapt with attribution.
